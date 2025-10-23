@@ -8,7 +8,7 @@ public class Main
 		System.out.println("");
 		System.out.println("");
 		
-		System.out.println("Hoş geldin ismail Sinan Gülbaş, yapmak istediğin işlemi aşağıdan seçebilirsin.");
+		System.out.println("Hoş geldin ismail Sinan Gülbaş Emre tAYFUR, yapmak istediğin işlemi aşağıdan seçebilirsin.");
 		System.out.println("");
 		System.out.println("                                                                       Bakiyeniz : 77TL");
 		System.out.println("PARA ÇEKME => İşlemi gerçekleştirmek için 1'e basınız.");
