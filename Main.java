@@ -2,7 +2,7 @@ public class Main
 {
 	public static void main(String[] args) {
 	    java.util.Scanner kb = new java.util.Scanner(System.in);
-	    int password,a,b,c;
+	    int password,a,b,c,i;
 		System.out.println("Hoş geldiniz, lütfen ATM'ye yerleştirdiğiniz kartın 4 haneli şifresini giriniz...");
 		password = kb.nextInt();
 		System.out.println("");
@@ -25,10 +25,30 @@ public class Main
 		    else
 		        if(a == 3)
 		            System.out.println("Ödemek istediğinz tutar miktarını giriniz.");
-		        else
-		            System.out.println("Lütfen geçerli bir sayı değeri giriniz.");
-		            
-		
+		        else {
+					System.out.println("Lütfen geçerli bir sayı değeri giriniz.");
+					a = kb.nextInt();
+					while (a > 3) {
+						System.out.println("Lütfen geçerli bir sayı değeri giriniz.");
+						a = kb.nextInt();
+						}
+					if (a == 1)
+						System.out.println("Çekmek istediğiniz tutar miktarını giriniz.");
+					else
+					if (a == 2)
+						System.out.println("Yatırmak istediğinz tutar miktarını giriniz.");
+					else
+					if(a == 3)
+						System.out.println("Ödemek istediğinz tutar miktarını giriniz.");
+
+
+
+
+				}
+
+
+
+
 		
 	}
 }
